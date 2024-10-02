@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 
-//@RestController
-@Controller
+@RestController
+//@Controller
 @RequestMapping("/auth")
 @RequiredArgsConstructor
 public class AuthController {
